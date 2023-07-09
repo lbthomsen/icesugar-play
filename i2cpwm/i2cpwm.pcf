@@ -1,0 +1,21 @@
+
+#set_io led B6
+
+set_io clk D1
+
+set_io -pullup yes sda  E2
+set_io -pullup yes scl  D1 
+
+set_io mosi C5
+set_io miso B6
+set_io sck  A3
+set_io cs   B3
+
+set_io leds[0] C6
+set_io leds[1] E3
+set_io leds[2] C2
+set_io leds[3] A1
+set_io leds[4] B4
+set_io leds[5] B5
+set_io leds[6] E1
+set_io leds[7] B1
